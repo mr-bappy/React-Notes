@@ -39,6 +39,6 @@
 - makes code easier to read and maintain, focused more on end result rather than steps involved to achieve.
 
 # How React works?
-### Component ---> Instances ---> React Elements(reconcilation) ---> DOM Element ---> Final UI
+### Component ---> Instances ---> (React Elements --> reconcilation) ---> DOM Element ---> Final UI
 ### Compiler - Babble
 
