@@ -1,5 +1,3 @@
-/*
-
 # table of content
 - introduction
 - history
@@ -44,4 +42,3 @@
 ### Component ---> Instances ---> React Elements(reconcilation) ---> DOM Element ---> Final UI
 ### Compiler - Babble
 
-*/
