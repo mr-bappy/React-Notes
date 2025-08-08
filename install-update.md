@@ -22,4 +22,4 @@
 
 - you can also read documentation of installing react or watch YouTube videos.
 
-<img src="https://www.google.com/imgres?q=react&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F3%2F30%2FReact_Logo_SVG.svg&imgrefurl=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FReact_(software)&docid=Fiz1iGC5gm0AcM&tbnid=1YRCTmBnER_nsM&vet=12ahUKEwiWkpDh0vuOAxUMzzgGHUWnGTgQM3oECBUQAA..i&w=800&h=728&hcb=2&ved=2ahUKEwiWkpDh0vuOAxUMzzgGHUWnGTgQM3oECBUQAA"/>
+<img src="./download (1).png"/>
