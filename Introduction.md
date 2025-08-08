@@ -34,11 +34,19 @@
 - it is all about components.
 - try to avoid duplicate code, follows DRY(Don't Repeat Yourself).
 
-# Why React.js?
-- declarative, focuses on displaying UI rather than how to achieve it.
-- makes code easier to read and maintain, focused more on end result rather than steps involved to achieve.
-
 # How React works?
 ### Component ---> Instances ---> (React Elements --> reconcilation) ---> DOM Element ---> Final UI
 ### Compiler - Babble
 
+# Why React.js over Vanilla JS?
+- before, we have to create seperate files for HTML, CSS and JS
+- in React, we create a component(basically a seperate directory) where it combines HTML, CSS and JS, we can use that component at multiple sections instead of rewriting the whole code. 
+- this makes seperation of concerns easier
+
+# Why React.js?
+- declarative, focuses on displaying UI rather than how to achieve it.
+- makes code easier to read and maintain, focused more on end result rather than steps involved to achieve.
+- most popular JS library for building UIs
+- Component-Based Architecture
+- Rich Ecosystem - npm packages
+- Strong Community Support - Online / GitHub
