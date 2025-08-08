@@ -41,7 +41,7 @@
 # Why React.js over Vanilla JS?
 - before, we have to create seperate files for HTML, CSS and JS
 - in React, we create a component(basically a seperate directory) where it combines HTML, CSS and JS, we can use that component at multiple sections instead of rewriting the whole code. 
-- this makes seperation of concerns easier
+- this makes seperation of concern easier
 
 # Why React.js?
 - declarative, focuses on displaying UI rather than how to achieve it.
