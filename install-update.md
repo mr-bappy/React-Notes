@@ -21,5 +21,3 @@
 - after updating, install new react necessary packages by using command: npm install or npm i
 
 - you can also read documentation of installing react or watch YouTube videos.
-
-<img src="./download (1).png"/>
