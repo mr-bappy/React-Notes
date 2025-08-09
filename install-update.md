@@ -12,6 +12,8 @@
     - then install necessary packages by using command: npm install or npm i
     - to run project: npm run dev
 
+- tip: if you have already created a folder and given a name, but when using that 'npm create vite@latest' command, it is asking to give a name to your project and it creates another folder, to avoid that, use './' at last of the command, e.g: npm create vite@latest ./, this will create your project without asking name to give.
+
 ### to check version of react
 - you can use import version package from react and use it.
 

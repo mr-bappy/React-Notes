@@ -36,7 +36,7 @@
 
 # How React works?
 ### Component ---> Instances ---> (React Elements --> reconcilation) ---> DOM Element ---> Final UI
-### Compiler - Babble
+
 
 # Why React.js over Vanilla JS?
 - before, we have to create seperate files for HTML, CSS and JS
