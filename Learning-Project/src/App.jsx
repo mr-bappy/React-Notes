@@ -4,9 +4,7 @@ function App() {
 
   return (
     <>
-      <NetflixSeries/>
-      <NetflixSeries/>
-      <NetflixSeries/>
+      <NetflixSeries/> {/* ----> Your component */}
     </>
   )
 }
