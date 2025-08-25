@@ -1,0 +1,19 @@
+
+.g-div{
+    padding: 40px;
+    background-color: blue;
+    border: 2px;
+    border: 4px solid black;
+}
+.p-div{
+    padding: 40px;
+    background-color: green;
+    border: 2px;
+    border: 4px solid black;
+}
+.c-div{
+    padding: 40px;
+    background-color: red;
+    border: 2px;
+    border: 4px solid black;
+}
