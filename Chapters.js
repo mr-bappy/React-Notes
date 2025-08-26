@@ -48,5 +48,25 @@
 41. Fetching a pokemon card from API
 42. handling loading and error states in React
 43. project: pokemon card
+44. useRef hook in React
+45. useId hook in React
+46. prop drilling in React
+47. useContext hook in React
+48. useContext rule in React
+49. Custom hook in React
+50. New 'use' hook in React - usage and its advantage
+51. Build a switch to dark-mode website in Tailwind CSS
+52. useReducer hook in React
+53. best practices to use useReducer hook
+54. React.memo() - prevent unnecessary re-renders 
+55. useMemo hook in React
+56. React.memo() vs useMemo hook in React
+
+57. Introduction to React Router - creating a basic route in app
+58. React Router Helper function
+59. React Router: simplify route setup with createRoutesFromElements helper function
+60. React Router App Layout & Outlet Component: Render Nested Elements in Your React Ap
+61. Building a dynamic navigation bar with react router - <NavLink to="/path">...</NavLink> 
+62. Active links in React Navigation
 
 */

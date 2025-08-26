@@ -12,6 +12,18 @@ import { ToggleSwitch } from './projects/ToggleSwitch'
 import { ReactUseEffect } from './hooks/useEffect'
 import { HowNotToFetchApi } from './hooks/useEffect/HowNotToFetchApi'
 import { Pokemon } from './projects/Pokemon/Pokemon'
+import { UseRef } from './hooks/useRefs'
+import { ForwardRef } from './hooks/useRefs/ForwardRef'
+import { UseId } from './hooks/useId'
+import { ParentComponent } from './components/PropDrilling'
+import { BioProvider } from './hooks/useContext'
+import { Home } from './pages/Home'
+import { About } from './pages/About'
+import { DarkMode, DarkModeProvider } from './hooks/useContext/DarkMode'
+import { UseReducer } from './hooks/useReducer'
+import { ReactMemo } from './hooks/Memo/ReactMemo'
+import MemoParentComponent from './hooks/Memo/UseMemo'
+import UseCallback from './hooks/Memo/UseCallback'
 
 function App() {
 
@@ -47,8 +59,41 @@ function App() {
 
       {/* <HowNotToFetchApi/> */}
 
-      {/* project */}
-      <Pokemon/>
+      {/* project - Pokemon Cards - fetch API and Search Card */}
+      {/* <Pokemon/> */}
+
+      {/* useRef hook */}
+      {/* <UseRef/> */}
+      {/* <ForwardRef/> */}
+
+      {/* useId hook */}
+      {/* <UseId/> */}
+
+      {/* Prop Drilling */}
+      {/* <ParentComponent/> */}
+
+      {/* useContext */}
+      {/* <BioProvider>
+        <Home/>
+        <About/>
+      </BioProvider> */}
+
+      {/* Project - Dark Mode website in Tailwind CSS */}
+      {/* <DarkModeProvider>
+        <DarkMode/>
+      </DarkModeProvider> */}
+
+      {/* hook - useReducer */}
+      {/* <UseReducer/> */}
+
+      {/* React Memo */}
+      {/* <ReactMemo/> */}
+
+      {/* useMemo hook */}
+      {/* <MemoParentComponent/> */}
+
+      {/* useCallback hook */}
+      <UseCallback/>
 
     </>
   )
