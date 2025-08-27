@@ -68,5 +68,17 @@
 60. React Router App Layout & Outlet Component: Render Nested Elements in Your React Ap
 61. Building a dynamic navigation bar with react router - <NavLink to="/path">...</NavLink> 
 62. Active links in React Navigation
+63. Handling Error Pages in React Router - useRouteError
+64. useNavigate Hook in React Router
+65. Fetch API data using react router loader - no useEffect needed
+    - useLoaderData
+    - useLoaderData vs useEffect to fetch API data
+66. create global loading state in react using React Router & useNavigation
+67. Secure Your React App: Using ENV Variables to Protect Private Data
+68. Dynamic Routing in React: Get Params Value and Fetch API Data for a Single Movie
+69. Handle Contact Form Data with React Router Form Component & Action
+70. Final UI Upgrades: Perfecting Your React Movie Website
+
+71. complete AXIOS in React
 
 */

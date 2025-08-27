@@ -3,8 +3,12 @@ import {Route, RouterProvider, createBrowserRouter, createRoutesFromChildren, cr
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Movie } from './pages/Movie';
-import { Contact } from './pages/Contact';
+import { Contact, contactData } from './pages/Contact';
 import AppLayout from './components/layout/AppLayout';
+import { ErrorPage } from './pages/ErrorPage';
+import { getMoviesData } from './api/GetApiData';
+import { MovieDetails } from './components/UI/MovieDetails';
+import { getMovieDetails } from './api/GetMovieDetails';
 
 function App() {
 
@@ -12,6 +16,7 @@ function App() {
     {
       path: '/',
       element: <AppLayout/>,
+      errorElement: <ErrorPage/>,
       children:[
         {
           path: '/',
@@ -23,11 +28,20 @@ function App() {
         },
         {
           path: '/movie',
-          element: <Movie/>
+          element: <Movie/>,
+          loader: getMoviesData,
+          hydrateFallbackElement: <h1>Loading...</h1>
+        },
+        {
+          path: '/movie/:movieID',
+          element: <MovieDetails/>,
+          loader: getMovieDetails,
+          hydrateFallbackElement: <h1>Loading...</h1>
         },
         {
           path: '/contact',
-          element: <Contact/>
+          element: <Contact/>,
+          action: contactData
         },
       ]
     },
@@ -44,11 +58,7 @@ function App() {
   //   )
   // );
 
-  return (
-    <>
-      <RouterProvider router={router}/>
-    </>
-  )
+  return <RouterProvider router={router}/>
 }
 
 export default App
