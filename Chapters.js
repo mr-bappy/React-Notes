@@ -80,5 +80,51 @@
 70. Final UI Upgrades: Perfecting Your React Movie Website
 
 71. complete AXIOS in React
+72. CRUD operation with Axios in React - Get
+73. CRUD operation - Delete
+74. CRUD operation - POST
+
+---- React(TanStack) Query -----
+
+1. Introduction to React Query
+2. Installing TanStack Query and Setting up React project
+3. QueryClient & Provider in TanStack Query
+4. Fetch API Data using React Query - useQuery()
+5. Handling Loading & Error in TanStack Query
+6. Installing React Query Dev Tools
+7. Garbage Collection Time in TanStack Query
+8. How To Stop unwanted API calls with stale time in TanStack Query
+9. Real time polling in React Query: constantly fetching fresh data
+10. fetching data for single route dynamic data
+11. pagination in React Query
+12. React Query useMutation hook: simplify CRUD and Delete - useMutation, useMutation, mutationFn, useQueryClient, setQueryClient
+13. Update data in API using React Query useMutation
+14. infinite scrolling react - useInfiniteQuery
+15. Infinite Scrolling in React Query with React Intersection Observer
+
+---- Redux in React ----
+
+1. why, when and how to use redux in react 
+2. create reducer function to add & delete tasks in react
+    - function reducer(state=initialState, action) {}
+    // action has a type and a payload which tells what to do
+3. redux store: create, dispatch and getState in react
+4. redux with action creators: how to create and dispatch actions easily
+5. connect redux with your react app
+6. access redux state in react: how to read data from redux store using useSelector
+7. how to dispatch actions in react using redux: add and delete task with useDispatch
+8. redux devtools: simplify state management in react
+9. redux thunk in react: fetch and add API data to your to-do app
+
+---- Redux Toolkit ----
+
+1. Introduction and advantages of RTK
+2. redux toolkit store setup: configureStore & useSelector in react
+3. createSlice in redux toolkit: simplifying action creators & reducers
+4. add & delete task using createSlice in redux toolkit
+5. connect redux toolkit with react - react-redux package and Provider component
+6. access redux store data in react using useSelector
+7. handle RTK actions using useDispatch hook: add & delete tasks in react app
+8. folder structure of redux toolkit in react
 
 */
